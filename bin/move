@@ -7,7 +7,7 @@ board = Array.new(9, " ")
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-display_board
+display_board(board)
 user_input = gets.strip
 index = index_to_input(user_input)
 move(board, index)
